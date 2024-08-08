@@ -1,0 +1,277 @@
+body {
+    background-color: white;
+    margin: 0;
+}
+
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 20px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-content img {
+    height: 50px;
+}
+
+nav a, nav button {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #464141;
+    font-weight: bold;
+}
+
+nav button {
+    padding: 5px 10px;
+    background-color: #ddd;
+    border: none;
+    cursor: pointer;
+    box-shadow: black 10px;
+}
+
+main {
+    background-color: rgb(156, 178, 171);
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    font-weight: bolder;
+    text-align: center;
+    font-size:16px;
+    margin: 0 0 20px 0;
+}
+
+.apres-titre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:7%;
+    margin-left: 35%;
+    margin-bottom: 5%;
+}
+
+.etape {
+    display: flex;
+    align-items: center;
+}
+
+.num {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ddd;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.trait {
+    width:160%;
+    height: 2px;
+    background-color: #ddd;
+    margin: 0 10px;
+}
+
+.num.active, .trait.active {
+    background-color: #1b5e20;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.mem-ligne {
+    display: flex;
+    flex-direction: column;
+}
+
+.deux-cadre {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    gap: 1cm;
+}
+
+.court-gauche {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 1px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 4cm;
+    height: 2cm;
+    padding: 10px;
+    display: flex;
+    align-items: flex-start;
+    margin-left: 20px;
+}
+
+.icone {
+    font-size: 10px;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    margin-right: 15px;
+    border-color: black;
+    font-weight: bolder;
+    color: black;
+}
+
+.contenu h2 {
+    margin: 0;
+    font-size: 14px;
+}
+
+.contenu p {
+    margin-top: 2px;
+    font-size:x-small;
+    color: #666;
+    font-weight: bold;
+}
+
+.long-droite {
+    flex-grow: 1;
+    max-width: 800px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    margin-left:-6%;
+}
+
+.long-droite h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.ligne {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    gap: 1cm;
+}
+
+.groupe-champ {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+}
+
+.groupe-champ label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.groupe-champ input,
+.groupe-champ select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.une_ligne {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.une_ligne label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.une_ligne input,
+.une_ligne select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.fichier {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.fichier label {
+    margin: 0;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.fichier input[type="file"] {
+    flex-grow: 1;
+}
+
+.bouton-soumettre {
+    width: 18%;
+    padding: 5px;
+    background-color: #558057;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 10px;
+    float: right;
+    margin-top: 10%;
+    margin-right: -4%;
+    margin-bottom: 15%;
+}
+
+.bouton-soumettre:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    margin-top: %;
+    padding: 20px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: left;
+}
+
+.footer-content a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.info_agence {
+    float: left;
+    margin-left: 2cm;
+    font-size: smaller;
+}
+
+.contribution {
+    float: right;
+    margin-left: 6cm;
+    font-size: smaller;
+}
+
+.copyright {
+    text-align: center;
+    font-size: small;
+}
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,127 @@
+body{
+    background-color: white;
+}
+
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 20px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-content img {
+    height: 50px;
+}
+
+nav a, nav button {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #464141;
+    font-weight: bold;
+}
+
+nav button {
+    padding: 5px 10px;
+    background-color: #ddd;
+    border: none;
+    cursor: pointer;
+    box-shadow: black 10px;
+ }
+
+
+ .carre-log{
+    flex-grow: 1;
+    max-width:40%;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    text-align:justify;
+    margin-left: 33%;
+    margin-top: 10%;
+
+ }
+ .entrer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.entrer label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.entrer input,
+.entrer select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+h1{
+    font-size: large;
+    text-align: center;
+}
+.espace label{
+float: left;
+}
+.espace a{
+    float: right;
+}
+p{
+    font-size: 12px;
+    color: #cbc5c5;
+}
+ a{
+    text-decoration:none ;
+ }
+ .button-2{
+    background-color: orange;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+
+ }
+
+footer {
+    background-color: #333;
+    color: white;
+    margin-top: 15%;
+    padding: 20px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+   
+
+.footer-content {
+    display: flex;
+    justify-content:left;
+    
+}
+
+.footer-content a {
+    color: #fff;
+    text-decoration: none;
+}
+.info_agence{
+    float: left;
+    margin-left: 2cm;
+}
+.contribution{
+    float: right;
+    margin-left: 6cm;
+}
+.copyright{
+    text-align: center;
+    font-size: small;
+}

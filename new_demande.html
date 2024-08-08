@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demande de permis de visite</title>
+    <link rel="stylesheet" href="new.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="image/1.png" alt="Agence Pénitentiaire Logo">
+            <nav>
+                <a href="new_demande.html">Nouvelle demande</a>
+                <a href="statut_demande.html">Statut de demande</a>
+                <button><a href="login.html">Se connecter</a></button>
+            </nav>
+        </div>
+    </header>
+
+
+
+    <main>
+        <div class="apres-titre">
+            <div class="etape">
+                <div class="num active">1</div>
+                <div class="trait active"></div>
+            </div>
+
+            <div class="etape">
+                <div class="num">2</div>
+                <div class="trait"></div>
+            </div>
+    
+            <div class="etape">
+                <div class="num">3</div>
+                <div class="trait"></div>
+            </div>
+        </div>
+        <div class="deux-cadre">
+            <div class="meme-ligne">
+        <div class="court-gauche">
+            <div class="icone">i</div>
+            <div class="contenu">
+                <h2>Titre</h2>
+                <p>Espace pour information relative à la demande, information relative au délai, blablabla blablabla</p>
+            </div>
+        </div>
+             </div>
+             <div class="meme-ligne">
+        <div class="long-droite">
+            <h2>Identité du Demandeur</h2>
+            <form>
+                <div class="ligne">
+                    <div class="groupe-champ">
+                        <label for="nom">Nom*</label>
+                        <input type="text" id="nom" name="nom" required>
+                    </div>
+                    <div class="groupe-champ">
+                        <label for="prenom">Prénoms*</label>
+                        <input type="text" id="prenom" name="prenom" required>
+                    </div>
+                </div>
+                <div class="ligne">
+                    <div class="groupe-champ">
+                        <label for="sexe">Sexe*</label>
+                        <select id="sexe" name="sexe" required>
+                            <option value="">Sélectionnez</option>
+                            <option value="masculin">Masculin</option>
+                            <option value="feminin">Féminin</option>
+                        </select>
+                    </div>
+                    <div class="groupe-champ">
+                        <label for="nationalite">Nationalité*</label>
+                        <input type="text" id="nationalite" name="nationalite" required>
+                    </div>
+                </div>
+                <div class="une_ligne">
+                    <label for="adresse">Adresse géographique</label>
+                    <input type="text" id="adresse" name="adresse">
+                </div>
+                <div class="une_ligne">
+                    <label for="reference">Référence pièces d'identité/Numéro personnel d'identification</label>
+                    <input type="text" id="reference" name="reference">
+                </div>
+                <div class="ligne">
+                    <div class="groupe-champ">
+                        <label for="adresse_postale">Adresse postale</label>
+                        <input type="text" id="adresse_postale" name="adresse_postale">
+                    </div>
+                    <div class="groupe-champ">
+                        <label for="departement">Département</label>
+                        <select id="departement" name="departement">
+                            <option value="">Sélectionnez</option>
+                    </div>
+                </div>
+                <div class="ligne">
+                    <div class="groupe-champ">
+                        <label for="commune">Commune</label>
+                        <input type="text" id="commune" name="commune">
+                    </div>
+                    <div class="groupe-champ">
+                        <label for="pays">Pays</label>
+                        <input type="text" id="pays" name="pays">
+                    </div>
+                </div>
+                <div class="ligne">
+                    <div class="groupe-champ">
+                        <label for="email">Email*</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="groupe-champ">
+                        <label for="telephone">Numéro de téléphone*</label>
+                        <input type="text" id="telephone" name="telephone" required maxlength="8">
+                    </div>
+                </div>
+                <div class="ligne">
+                    <div class="groupe-champ">
+                        <label for="emploi">Fonction/Emploi</label>
+                        <input type="text" id="emploi" name="emploi">
+                    </div>
+                    <div class="groupe-champ">
+                        <label for="qualite">Qualité</label>
+                        <input type="text" id="qualite" name="qualite">
+                    </div>
+                </div>
+                <div class="une_ligne">
+                    <label for="ordre_mission">Titre ou ordre de mission</label>
+                    <input type="text" id="ordre_mission" name="ordre_mission">
+                </div>
+                <div class="une_ligne">
+                    <label for="lien_incarceree">Lien avec la personne incarcérée</label>
+                    <input type="text" id="lien_incarceree" name="lien_incarceree">
+                </div>
+                <div class="groupe-champ fichier">
+                    <label for="piece">Pièce justificative</label>
+                    <input type="file" id="piece" name="piece" accept=".jpg, .jpeg, .png, .pdf">
+                </div>
+            </form>
+            <button type="submit" class="bouton-soumettre">  <a href="new_2.html">Suivant</a></button>
+        </div>
+    </div>
+    </div>
+
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="info_agence">L'AGENCE <br><br>
+                <a href="#">Nous contacter</a><br><br>
+                <a href="#">FAQ</a>
+            </div>
+            <div class="contribution">CONTRIBUER <br><br>
+                <a href="#">Signaler un problème</a><br><br>
+                <a href="#">Faire une suggestion</a>
+            </div>
+        </div>
+        <p class="copyright">&copy;Agence Pénitentaire du Bénin</p>
+    </footer>
+    
+</body>
+</html>

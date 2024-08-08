@@ -1,0 +1,103 @@
+body{
+    background-color: white;
+}
+
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 20px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-content img {
+    height: 50px;
+}
+
+nav a, nav button {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #464141;
+    font-weight: bold;
+}
+
+nav button {
+    padding: 5px 10px;
+    background-color: #ddd;
+    border: none;
+    cursor: pointer;
+    box-shadow: black 10px;
+ }
+
+h1{
+    color: rgb(41, 5, 5);
+    font-size: large;
+}
+h2{
+    color: rgb(43, 9, 9);
+    font-size: small;
+}
+.haut{
+    text-align: center;
+    background-color: rgb(186, 192, 193);
+    padding: 2%;
+    margin: opx;
+}
+footer {
+    background-color: #333;
+    color: white;
+    margin-top: 45%;
+    padding: 20px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+   
+}
+
+.footer-content {
+    display: flex;
+    justify-content:left;
+    
+}
+
+.footer-content a {
+    color: #fff;
+    text-decoration: none;
+}
+.info_agence{
+    float: left;
+    margin-left: 2cm;
+}
+.contribution{
+    float: right;
+    margin-left: 6cm;
+}
+.copyright{
+    text-align: center;
+    font-size: small;
+}
+
+
+
+.input {
+    flex: 1; 
+    padding: 5px 80px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+
+  }
+  .send{
+    margin-left: 0px;
+    padding: 5px 15px;
+    margin-left: -4px;
+    background-color: #2d6417;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+  }
